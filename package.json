@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "deploy:aws": "sls deploy",
     "serverless:offline": "serverless offline start --skipCacheInvalidation",
     "dev": "export NODE_ENV=dev && serverless offline start --skipCacheInvalidation"
   },
